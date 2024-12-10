@@ -1,0 +1,77 @@
+body{
+margin: 0px;
+padding: 0px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: url(https://img.freepik.com/free-vector/background-pixel-rain-abstract_23-2148361453.jpg?ga=GA1.1.1420745933.1732167890&semt=ais_hybrid=);
+}
+.box {
+    margin-left: 615px;
+    border-radius: 100%;
+    margin-top: 10px;
+    height: 250px;
+   width: 250px;
+}
+.box_bawah{
+    text-align: center;
+    color: #0494fc;
+    margin-top: 15px;
+    align-content: center;
+}
+.box_bawah h1{
+    font-size: 20px;
+}
+h1{
+    color: whitesmoke;
+}
+span{
+    color: aliceblue;
+}
+
+img{
+    border-radius: 100%; 
+    height: 250px;
+   width: 250px;
+}
+.box_kiri , .box_tengah , .box_kanan
+{
+    width: 300px;
+    height: 735px;
+    background-color:#fafafa;
+    text-align: center;
+   padding: 45px 60px;
+    margin: 20px 20px 20px 55px ;
+    float: left;
+    border-radius: 150px;
+    
+    
+}
+ul{
+    margin-right: 30px;
+}
+.blue_button{
+    background:grey;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    transition-duration: 450ms;
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+
+}
+
+.blue_button:hover{
+    text-decoration: none;
+    color:black;
+    background-color: #0494fc;  
+   
+}
+
+nav ul{
+    list-style-type:none;
+    margin-top: 30px;
+   display: flex;
+
+
+}

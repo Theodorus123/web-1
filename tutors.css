@@ -1,0 +1,107 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1180469932/photo/early-morning-sunrise-on-a-choppy-river.jpg?b=1&s=612x612&w=0&k=20&c=JIH38AQLdkT4yGgTKqdd-Kvb8Lw6_uBoZeXAap0FaAg=);
+    background-size: cover;
+    background-position: center;
+    
+    height: 10vh;
+    margin: 0;
+    padding: 20px 20px 20px 20px; 
+    
+   
+}
+#tutors{
+font-size: 30px;
+ text-align: center;
+ color: black;
+ font-weight: bold;
+} 
+.blue_pink{
+    background: #0494fc;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    transition-duration: 450ms;
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.blue_pink:hover{
+    text-decoration: none;
+    color:black;
+    background-color: #0494fc;
+   
+}
+nav ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.box_kiri,.box_tengah,.box_kanan,.box_ribawah,.box_tebawah,.box_nanbawah{
+   
+  
+    background-color:rgba(255, 255, 255, 0);
+    text-align: center;
+   padding: 45px 45px ;
+   
+    float: left;
+    border-radius: 100px;
+  
+
+    
+    
+}
+img{
+    border-radius: 0px; 
+    height: 500px;
+   width:500px;
+}
+.flip-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    }
+.card{
+
+    width: 325px;
+    background-color: #734128;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px  rgb(0,0,0,0,2);
+    margin:20px 20px 20px 55px;
+    
+}
+.card img{
+    height: auto;
+    width: 100%;
+
+}
+.card-content{
+    padding: 16px;
+
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: aliceblue;
+}
+.card-content .btn{
+    display: inline-block;
+    padding:8px 20px ;
+background-color:white ;
+text-decoration: none;
+border-radius: 4px;
+margin-top: 16px;
+color:black;
+}
+.btn:hover{
+    background-color: rgba(245, 245, 245, 0.855);
+    transform: 400m;
+}
+.card-content p{
+    color: aliceblue;
+}
+
+   
+

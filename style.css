@@ -1,0 +1,143 @@
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(https://media.istockphoto.com/id/1615822777/photo/yellow-studio-room-background-shadow-leaf-on-wall-paper-floor-table-product-summer-tropical.jpg?s=612x612&w=0&k=20&c=YPeV5S4kY2eq8UMRrvlJlPOqwwyHLgC11GU5qbMk4f0=);
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+ }
+
+ .logo a {
+
+    font-size: 70px;
+    font-weight: 800;
+   float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    margin-left:0px;
+    margin-right: 30px;
+   padding:0px;
+  
+ }
+ .menu{
+    float: right;
+ }
+
+
+
+ nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 85px;
+    background-color: #F26B0F;
+    position:-webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top:0px;
+ }
+ nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+  nav ul li{
+    float: left;
+    margin-left: 20px;
+  
+} 
+ 
+ nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding: 10px  10px 10px 10px;
+  
+transition-duration: 450ms;
+ 
+     
+ }
+
+ nav div a{
+    text-decoration: none;
+    padding: 0px 10px 0px 0px;
+ }
+ nav ul li a:hover{
+    border-bottom: 1px  solid black;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+   border-radius: 200px;
+ }
+
+ .tbl_biru{
+   background-color: white;
+   border-radius: 20px;
+   margin-top: 20px;
+   padding: 10px 5ppx 10px 5px;
+   color: black;
+   cursor:pointer;
+   
+
+ }
+ .tbl_biru:hover{
+   background:black;
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .kolom .deskripsi{
+   margin-top: 150px;
+   color: black;
+   margin-bottom: 0px;
+ }
+ h2{
+   font-size: 30px;
+   margin-top: 15px;
+   margin-bottom: 0px;
+
+ }
+ span{
+   color:#fc6900;
+   font-size: 30px;
+ }
+ 
+ .tompink{
+   background-color: white;
+   border-radius: 35px;
+   margin-top: 20px;
+   padding: 10px 15px 10px 15px;
+   color: black;
+   cursor:pointer;
+   font-weight: bold ;
+   text-decoration: none;
+   
+ }
+ .tompink:hover{
+   background:darkblue;
+   text-decoration: none;
+   color: azure;
+ }
+#home img{
+   float: left;
+   height: 500px;
+   width: 500px;
+   margin-right: 79px;
+   border-radius: 100%;
+   margin-top: 35px;
+ }
+ p{
+   margin-top: 10px;
+ }
+

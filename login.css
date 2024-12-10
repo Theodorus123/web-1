@@ -1,0 +1,119 @@
+@import url(https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900);
+*{
+    margin: 0px;
+    padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins' sans-serif;
+
+}
+body{
+    min-height: 100vh;
+   background-image: url(https://img.freepik.com/free-photo/portrait-human-skeleton-painting_23-2150862726.jpg?t=st=1733806663~exp=1733810263~hmac=b3549743d0edf23db219b71f481c8ae83c9b9248f94a83b177eac3fd7b7d934b?ga=GA1.1.1420745933.1732167890);
+    width: 100vh;
+    height: 100dvb;
+
+}
+.container{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    background: rgb(69, 49, 0);
+    border-radius: 7px;
+    box-shadow: 0 5px 10px black;
+ 
+}
+.container .regitration{
+    display: none;
+
+}
+#check:checked ~ .regitration{
+    display: block;
+    
+
+}
+#check:checked ~ .login{
+    display: block;
+    
+}
+#check{
+    display: none;
+}
+.container .form{
+    padding: 2rem;
+}
+.form header{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center ;
+    margin-bottom: 1.5rem;
+    color: blanchedalmond;
+
+}
+.form input{
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid  rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    outline: none;
+
+}
+.form input:focus{
+    box-shadow: 0px 1px 10px black;
+
+}
+.form a{
+    font-size: 16px;
+    color: blanchedalmond;
+    text-decoration: none;
+
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.form input .button{
+    color: white;
+    background: aquamarine;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 1.7rem;
+    cursor: pointer;
+    transition: 0,4s;
+}
+.form input .button:hover{
+    background:rgb(210, 8, 8);
+}
+.signup{
+    font-size: 17px;
+    text-align: center;
+    color: bisque;
+}
+.signup label{
+    color: blue;
+    cursor: pointer;
+}
+
+.signup label:hover{
+    text-decoration: underline;
+}
+
+.registration form{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    background: rgb(69, 49, 0);
+    border-radius: 7px;
+    box-shadow: 0 5px 10px black;
+ 
+}
